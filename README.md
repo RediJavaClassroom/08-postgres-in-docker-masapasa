@@ -172,12 +172,6 @@ CREATE INDEX user_id_idx ON short_links(user_id);
 SET enable_seqscan = OFF;
 EXPAIN SELECT * FROM short_links WHERE user_id=1;
 ```
-
-![](img/library-catalog.jpg)
-
-From https://en.wikipedia.org/wiki/Library_catalog
-
-
 ## Automate things
 We can apply an SQL script in a batch mode:
 ```
